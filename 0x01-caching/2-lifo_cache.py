@@ -24,4 +24,3 @@ class LIFOCache(BaseCaching):
     def get(self, key):
         """ Retrieves the value linked to the given key """
         return self.cache_data.get(key, None)
-
